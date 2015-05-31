@@ -1,3 +1,3 @@
-# heapsort
+# Learning Go
 
-Golang implementation of a simple heap sort as defined in Introduction to Algorithms, 2nd Edition by Cormen et al.
+Simple Golang implementations of some algorithms as defined in Introduction to Algorithms, 2nd Edition by Cormen et al.

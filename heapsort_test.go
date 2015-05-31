@@ -1,4 +1,4 @@
-package heapsort
+package algorithms
 
 import (
 	"testing"
@@ -6,7 +6,7 @@ import (
 )
 
 func TestSort(t *testing.T) {
-	assert.Equal(t, []int{1, 2, 3, 4, 7, 8, 9, 10, 14, 16}, Sort([]int{16, 14, 10, 8, 7, 9, 3, 2, 4, 1}))
+	assert.Equal(t, []int{1, 2, 3, 4, 7, 8, 9, 10, 14, 16}, HeapSort([]int{16, 14, 10, 8, 7, 9, 3, 2, 4, 1}))
 }
 
 func TestParent(t *testing.T) {

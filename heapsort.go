@@ -1,4 +1,4 @@
-package heapsort
+package algorithms
 
 type Heap struct {
 	Field      []int
@@ -52,7 +52,7 @@ func buildMaxHeap(A *Heap) Heap {
 	return *A
 }
 
-func Sort(unsorted []int) []int {
+func HeapSort(unsorted []int) []int {
 	A := Heap{Field: unsorted}
 	buildMaxHeap(&A)
 	for i := len(A.Field) - 1; i >= 1; i-- {
